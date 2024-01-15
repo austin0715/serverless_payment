@@ -9,9 +9,9 @@ exports.handler = async (event, context) => {
                 price_data: {
                     currency: "cad",
                     product_data: {
-                        name: "Whiskey",
+                        name: "Gyoza",
                     },
-                    unit_amount: 20000,
+                    unit_amount: 999,
                 },
                 quantity: 1,
             },
@@ -19,9 +19,9 @@ exports.handler = async (event, context) => {
                 price_data: {
                     currency: "cad",
                     product_data: {
-                        name: "Sparkling Wine",
+                        name: "Okonomiyaki",
                     },
-                    unit_amount: 20000,
+                    unit_amount: 1599,
                 },
                 quantity: 1,
             },
@@ -29,19 +29,9 @@ exports.handler = async (event, context) => {
                 price_data: {
                     currency: "cad",
                     product_data: {
-                        name: "Ice Wine",
+                        name: "Bibimbap",
                     },
-                    unit_amount: 2100,
-                },
-                quantity: 1,
-            },
-            {
-                price_data: {
-                    currency: "cad",
-                    product_data: {
-                        name: "Pizza",
-                    },
-                    unit_amount: 2100,
+                    unit_amount: 1899,
                 },
                 quantity: 1,
             },
